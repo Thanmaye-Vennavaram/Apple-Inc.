@@ -1,0 +1,112 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  
+  text-align: center;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+    display: flex;  
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+  
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+header a:hover {
+    color: black;
+}
+
+#footer {
+  background: lightgrey;
+}
+
+#footer_credits {
+  text-align: left;
+  font-size: 10px;
+  color: grey;
+  padding: 50px;
+  margin: 100px;
+}
+
+.iphone {      
+                animation-name: iphone;
+                animation-duration: 10s;
+                animation-interation-count: 5;
+                position: relative;
+            }
+            @keyframes iphone {
+                0%{left: 0px; top: 0px;}
+                25%{left: 150px; top: 0px}
+                50%{left:150px; top: 150px}
+                75%{left: 0px; top: 150px;}
+                100%{left: 0px; top: 0px;}
+            }
+
+.airpods_max {
+              
+                animation-name: airpods_max;
+                animation-duration: 10s;
+                animation-interation-count: 5;
+                position: relative;
+            }
+            @keyframes airpods_max {
+                0%{left: 0px; top: 0px;}
+                25%{left: 200px; top: 0px}
+                50%{left:200px; top: 200px}
+                75%{left: 0px; top: 200px;}
+                100%{left: 0px; top: 0px;}
+            }
+
+.13pro {
+  animation-name: 13pro;
+  animation-duration: 5s;
+                animation-interation-count: 5;
+                position: relative;
+            }
+            @keyframes 13pro {
+                0%{left: 0px; top: 0px;}
+                25%{left: 300px; top: 0px}
+                50%{left:300px; top: 300px}
+                75%{left: 0px; top: 300px;}
+                100%{left: 0px; top: 0px;}
+}
+
+.text {
+                font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  float: right;
+  padding-right: 200px;
+  padding-top: 50px;
+               color: black ;
+                animation-name: s;
+                animation-duration: 10s;
+                animation-iteration-count: 6;
+            }
+            @keyframes s {
+                from {color: black;}
+                to {color: #A9A9A9;}
+                to {color: white;}
+            }
